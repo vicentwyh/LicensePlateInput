@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3BB8B720D181EA00FCA786 /* LicenseKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB89D20D181EA00FCA786 /* LicenseKeyBoardView.m */; };
+		AA3BB8B820D181EA00FCA786 /* carNum_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB89F20D181EA00FCA786 /* carNum_high@2x.png */; };
+		AA3BB8B920D181EA00FCA786 /* licenseInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A220D181EA00FCA786 /* licenseInputCell.m */; };
+		AA3BB8BA20D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A420D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.m */; };
+		AA3BB8BB20D181EA00FCA786 /* LicenceNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A520D181EA00FCA786 /* LicenceNumberCell.m */; };
+		AA3BB8BC20D181EA00FCA786 /* LicenseInputTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A620D181EA00FCA786 /* LicenseInputTextModel.m */; };
+		AA3BB8BD20D181EA00FCA786 /* LicenseKeyBoardContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A720D181EA00FCA786 /* LicenseKeyBoardContentView.m */; };
+		AA3BB8BE20D181EA00FCA786 /* LicenseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A820D181EA00FCA786 /* LicenseButton.m */; };
+		AA3BB8BF20D181EA00FCA786 /* LicensePlateInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8A920D181EA00FCA786 /* LicensePlateInput.m */; };
+		AA3BB8C020D181EA00FCA786 /* LicenseInputConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8AA20D181EA00FCA786 /* LicenseInputConfig.m */; };
+		AA3BB8C120D181EA00FCA786 /* carNum_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB8AB20D181EA00FCA786 /* carNum_normal@2x.png */; };
+		AA3BB8C220D181EA00FCA786 /* carNum_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB8AD20D181EA00FCA786 /* carNum_normal@3x.png */; };
+		AA3BB8C320D181EA00FCA786 /* LicenseInputSelectedBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BB8AE20D181EA00FCA786 /* LicenseInputSelectedBgView.m */; };
+		AA3BB8C420D181EA00FCA786 /* carNum_high.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB8B020D181EA00FCA786 /* carNum_high.png */; };
+		AA3BB8C520D181EA00FCA786 /* deleteCarNumber@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB8B120D181EA00FCA786 /* deleteCarNumber@3x.png */; };
+		AA3BB8C620D181EA00FCA786 /* deleteCarNumber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3BB8B620D181EA00FCA786 /* deleteCarNumber@2x.png */; };
 		AAF45CCA2088DE3000F34A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45CC92088DE3000F34A0D /* AppDelegate.m */; };
 		AAF45CCD2088DE3000F34A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45CCC2088DE3000F34A0D /* ViewController.m */; };
 		AAF45CD02088DE3000F34A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF45CCE2088DE3000F34A0D /* Main.storyboard */; };
@@ -35,6 +51,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA3BB89D20D181EA00FCA786 /* LicenseKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseKeyBoardView.m; sourceTree = "<group>"; };
+		AA3BB89E20D181EA00FCA786 /* LicenseInputConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseInputConfig.h; sourceTree = "<group>"; };
+		AA3BB89F20D181EA00FCA786 /* carNum_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carNum_high@2x.png"; sourceTree = "<group>"; };
+		AA3BB8A020D181EA00FCA786 /* LicensePlateInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateInput.h; sourceTree = "<group>"; };
+		AA3BB8A120D181EA00FCA786 /* LicenseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseButton.h; sourceTree = "<group>"; };
+		AA3BB8A220D181EA00FCA786 /* licenseInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = licenseInputCell.m; sourceTree = "<group>"; };
+		AA3BB8A320D181EA00FCA786 /* LicenseInputSelectedBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseInputSelectedBgView.h; sourceTree = "<group>"; };
+		AA3BB8A420D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseKeyBoardLetterNumberView.m; sourceTree = "<group>"; };
+		AA3BB8A520D181EA00FCA786 /* LicenceNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenceNumberCell.m; sourceTree = "<group>"; };
+		AA3BB8A620D181EA00FCA786 /* LicenseInputTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseInputTextModel.m; sourceTree = "<group>"; };
+		AA3BB8A720D181EA00FCA786 /* LicenseKeyBoardContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseKeyBoardContentView.m; sourceTree = "<group>"; };
+		AA3BB8A820D181EA00FCA786 /* LicenseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseButton.m; sourceTree = "<group>"; };
+		AA3BB8A920D181EA00FCA786 /* LicensePlateInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInput.m; sourceTree = "<group>"; };
+		AA3BB8AA20D181EA00FCA786 /* LicenseInputConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseInputConfig.m; sourceTree = "<group>"; };
+		AA3BB8AB20D181EA00FCA786 /* carNum_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carNum_normal@2x.png"; sourceTree = "<group>"; };
+		AA3BB8AC20D181EA00FCA786 /* LicenseKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseKeyBoardView.h; sourceTree = "<group>"; };
+		AA3BB8AD20D181EA00FCA786 /* carNum_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carNum_normal@3x.png"; sourceTree = "<group>"; };
+		AA3BB8AE20D181EA00FCA786 /* LicenseInputSelectedBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseInputSelectedBgView.m; sourceTree = "<group>"; };
+		AA3BB8AF20D181EA00FCA786 /* licenseInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = licenseInputCell.h; sourceTree = "<group>"; };
+		AA3BB8B020D181EA00FCA786 /* carNum_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carNum_high.png; sourceTree = "<group>"; };
+		AA3BB8B120D181EA00FCA786 /* deleteCarNumber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteCarNumber@3x.png"; sourceTree = "<group>"; };
+		AA3BB8B220D181EA00FCA786 /* LicenceNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenceNumberCell.h; sourceTree = "<group>"; };
+		AA3BB8B320D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseKeyBoardLetterNumberView.h; sourceTree = "<group>"; };
+		AA3BB8B420D181EA00FCA786 /* LicenseKeyBoardContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseKeyBoardContentView.h; sourceTree = "<group>"; };
+		AA3BB8B520D181EA00FCA786 /* LicenseInputTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseInputTextModel.h; sourceTree = "<group>"; };
+		AA3BB8B620D181EA00FCA786 /* deleteCarNumber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteCarNumber@2x.png"; sourceTree = "<group>"; };
 		AAF45CC52088DE3000F34A0D /* ceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF45CC82088DE3000F34A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAF45CC92088DE3000F34A0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +120,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA3BB89C20D181EA00FCA786 /* LicensePlateInput */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BB8A020D181EA00FCA786 /* LicensePlateInput.h */,
+				AA3BB8A920D181EA00FCA786 /* LicensePlateInput.m */,
+				AA3BB89E20D181EA00FCA786 /* LicenseInputConfig.h */,
+				AA3BB8AA20D181EA00FCA786 /* LicenseInputConfig.m */,
+				AA3BB8AC20D181EA00FCA786 /* LicenseKeyBoardView.h */,
+				AA3BB89D20D181EA00FCA786 /* LicenseKeyBoardView.m */,
+				AA3BB8B420D181EA00FCA786 /* LicenseKeyBoardContentView.h */,
+				AA3BB8A720D181EA00FCA786 /* LicenseKeyBoardContentView.m */,
+				AA3BB8B320D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.h */,
+				AA3BB8A420D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.m */,
+				AA3BB8A320D181EA00FCA786 /* LicenseInputSelectedBgView.h */,
+				AA3BB8AE20D181EA00FCA786 /* LicenseInputSelectedBgView.m */,
+				AA3BB8A520D181EA00FCA786 /* LicenceNumberCell.m */,
+				AA3BB8B220D181EA00FCA786 /* LicenceNumberCell.h */,
+				AA3BB8B520D181EA00FCA786 /* LicenseInputTextModel.h */,
+				AA3BB8A620D181EA00FCA786 /* LicenseInputTextModel.m */,
+				AA3BB8A120D181EA00FCA786 /* LicenseButton.h */,
+				AA3BB8A820D181EA00FCA786 /* LicenseButton.m */,
+				AA3BB8AB20D181EA00FCA786 /* carNum_normal@2x.png */,
+				AA3BB8AD20D181EA00FCA786 /* carNum_normal@3x.png */,
+				AA3BB8AF20D181EA00FCA786 /* licenseInputCell.h */,
+				AA3BB8A220D181EA00FCA786 /* licenseInputCell.m */,
+				AA3BB8B020D181EA00FCA786 /* carNum_high.png */,
+				AA3BB8B120D181EA00FCA786 /* deleteCarNumber@3x.png */,
+				AA3BB89F20D181EA00FCA786 /* carNum_high@2x.png */,
+				AA3BB8B620D181EA00FCA786 /* deleteCarNumber@2x.png */,
+			);
+			name = LicensePlateInput;
+			path = LicensePlateInpu;
+			sourceTree = "<group>";
+		};
 		AAF45CBC2088DE3000F34A0D = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +182,7 @@
 				AAF45CCB2088DE3000F34A0D /* ViewController.h */,
 				AAF45CCC2088DE3000F34A0D /* ViewController.m */,
 				AAF45CCE2088DE3000F34A0D /* Main.storyboard */,
+				AA3BB89C20D181EA00FCA786 /* LicensePlateInput */,
 				AAF45CD12088DE3000F34A0D /* Assets.xcassets */,
 				AAF45CD32088DE3000F34A0D /* LaunchScreen.storyboard */,
 				AAF45CD62088DE3000F34A0D /* Info.plist */,
@@ -238,8 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3BB8C220D181EA00FCA786 /* carNum_normal@3x.png in Resources */,
+				AA3BB8B820D181EA00FCA786 /* carNum_high@2x.png in Resources */,
+				AA3BB8C120D181EA00FCA786 /* carNum_normal@2x.png in Resources */,
 				AAF45CD52088DE3000F34A0D /* LaunchScreen.storyboard in Resources */,
+				AA3BB8C620D181EA00FCA786 /* deleteCarNumber@2x.png in Resources */,
 				AAF45CD22088DE3000F34A0D /* Assets.xcassets in Resources */,
+				AA3BB8C420D181EA00FCA786 /* carNum_high.png in Resources */,
+				AA3BB8C520D181EA00FCA786 /* deleteCarNumber@3x.png in Resources */,
 				AAF45CD02088DE3000F34A0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3BB8B920D181EA00FCA786 /* licenseInputCell.m in Sources */,
 				AAF45CCD2088DE3000F34A0D /* ViewController.m in Sources */,
+				AA3BB8BA20D181EA00FCA786 /* LicenseKeyBoardLetterNumberView.m in Sources */,
+				AA3BB8BD20D181EA00FCA786 /* LicenseKeyBoardContentView.m in Sources */,
+				AA3BB8BC20D181EA00FCA786 /* LicenseInputTextModel.m in Sources */,
+				AA3BB8BE20D181EA00FCA786 /* LicenseButton.m in Sources */,
 				AAF45CD82088DE3000F34A0D /* main.m in Sources */,
+				AA3BB8BB20D181EA00FCA786 /* LicenceNumberCell.m in Sources */,
+				AA3BB8C020D181EA00FCA786 /* LicenseInputConfig.m in Sources */,
 				AAF45CCA2088DE3000F34A0D /* AppDelegate.m in Sources */,
+				AA3BB8BF20D181EA00FCA786 /* LicensePlateInput.m in Sources */,
+				AA3BB8C320D181EA00FCA786 /* LicenseInputSelectedBgView.m in Sources */,
+				AA3BB8B720D181EA00FCA786 /* LicenseKeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
