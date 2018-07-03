@@ -42,6 +42,7 @@ typedef NS_ENUM(NSUInteger, CapacityChangeType) {
 {
     _selectedIndex = -1;
     _maxLength = 7;
+    _textFont = [UIFont systemFontOfSize:20];
 }
 
 - (void)replaceStringWithRage:(NSRange)range string:(NSString *)string
@@ -126,6 +127,20 @@ typedef NS_ENUM(NSUInteger, CapacityChangeType) {
     [self changeCapacityWithType:type delta:delta];
     
     _maxLength = maxLength;
+}
+
+- (void)setTextFont:(UIFont *)textFont
+{
+    _textFont = textFont;
+    
+    [self.inputView textFontChangeHander];
+}
+
+- (void)setTextColor:(UIColor *)textColor
+{
+    _textColor = textColor;
+    
+    [self.inputView textColorChangeHander];
 }
 
 - (NSArray<LicenseInputTextModel *> *)TextArrays

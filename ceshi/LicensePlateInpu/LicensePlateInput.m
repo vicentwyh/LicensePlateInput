@@ -188,10 +188,15 @@ typedef NS_ENUM(NSUInteger, InputTextChangeType) {
     return [self.config currentLicenseString];
 }
 
+- (void)refreshCollection
+{
+    [self.collectionView reloadData];
+}
+
 #pragma mark - 选中位置改变时进行的操作
 - (void)selectedChangeHander:(NSInteger)selectedIndex
 {
-    [self.collectionView reloadData];
+    [self refreshCollection];
     if (selectedIndex == -1) return;
     
     [self showLetterAndNumberKeyBoard:selectedIndex];
@@ -200,7 +205,17 @@ typedef NS_ENUM(NSUInteger, InputTextChangeType) {
 #pragma mark - 输入长度限制改变时进行的操作
 - (void)maxLengthChangeHander
 {
-    [self.collectionView reloadData];
+    [self refreshCollection];
+}
+
+- (void)textFontChangeHander
+{
+    [self refreshCollection];
+}
+
+- (void)textColorChangeHander
+{
+    [self refreshCollection];
 }
 
 #pragma mark - CollectionView DataSource
@@ -210,8 +225,10 @@ typedef NS_ENUM(NSUInteger, InputTextChangeType) {
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     licenseInputCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass(licenseInputCell.class) forIndexPath:indexPath];
-    cell.model = self.config.TextArrays[indexPath.row];
+    cell.textLabel.font = self.config.textFont;
+    cell.textLabel.text = self.config.TextArrays[indexPath.row].text;
     cell.selected = self.config.selectedIndex == indexPath.row;
+    cell.textLabel.textColor = self.config.textColor;
     return cell;
 }
 

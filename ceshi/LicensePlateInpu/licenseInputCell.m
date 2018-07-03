@@ -7,7 +7,6 @@
 //
 
 #import "licenseInputCell.h"
-#import "LicenseInputTextModel.h"
 #import "LicenseInputSelectedBgView.h"
 
 @implementation licenseInputCell
@@ -24,7 +23,6 @@
             self.textLabel.layer.cornerRadius = 5;
             self.textLabel.layer.borderWidth = 1;
             self.textLabel.layer.borderColor = [UIColor colorWithRed:216/255.0 green:216/255.0 blue:216/255.0 alpha:1.0].CGColor;
-            self.textLabel.font = [UIFont systemFontOfSize:20];
             [self.contentView addSubview:self.textLabel];
             NSLayoutAttribute layoutAttributes[4] = {NSLayoutAttributeLeft,NSLayoutAttributeRight,NSLayoutAttributeTop,NSLayoutAttributeBottom};
             for (NSInteger i = 0; i < sizeof(layoutAttributes) / sizeof(NSInteger); i++) {
@@ -40,12 +38,6 @@
     return self;
 }
 
-- (void)setModel:(LicenseInputTextModel *)model
-{
-    _model = model;
-    
-    self.textLabel.text = model.text;
-}
 
 @end
 

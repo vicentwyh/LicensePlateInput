@@ -25,6 +25,10 @@
 - (void)selectedChangeHander:(NSInteger)selectedIndex NS_REQUIRES_SUPER;
 // 输入长度限制改变时进行的操作
 - (void)maxLengthChangeHander NS_REQUIRES_SUPER;
+// 字体改变时进行的操作
+- (void)textFontChangeHander NS_REQUIRES_SUPER;
+// 字体改变时进行的操作
+- (void)textColorChangeHander NS_REQUIRES_SUPER;
 
 // 结束输入
 - (void)stopInput;

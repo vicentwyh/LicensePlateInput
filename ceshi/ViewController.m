@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
     [_inputView replaceStringWithRage:NSMakeRange(0, 2) string:@"闽D"];
     _inputView.inputComplete = ^(NSString *lisenseString) {
         

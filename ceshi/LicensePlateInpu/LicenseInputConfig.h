@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "LicenseInputTextModel.h"
 @class LicensePlateInput;
 
@@ -18,6 +19,10 @@
 @property (nonatomic, assign) NSInteger maxLength;
 // 选中位置
 @property (nonatomic, assign) NSInteger selectedIndex;
+// 输入框字体,默认为20
+@property (nonatomic, strong) UIFont *textFont;
+// 输入框字体颜色
+@property (nonatomic, strong) UIColor *textColor;
 /**
  设置车牌号指定位置的输入不能选择的值
  例如：第二个输入框不能输入I  invalid[@"1"] = @[@"I"];
